@@ -1,7 +1,4 @@
 # startup
 CS 260 startup project
 
-Changes for the gitHub assignment, whoo.
-More stuff for the assingment.
-Ok I think this time were making a merge conflict.
-Doin a thing (a ha ha ha).
+Fun Fact: fixing merge conflicts is easy, but when it askes what you want to look at choose to view the conflict. Not something random (thumbs up).
