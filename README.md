@@ -6,7 +6,10 @@ At least once in every roommate's life they'll notice that they have a lot of th
 ![Startup Design](https://user-images.githubusercontent.com/98202044/215239985-548c9cbc-6ab9-4690-869d-e2bad07b4033.jpeg)
 
 ### Key Features
--Collaborate on Lists with your friends
+
+-Login to view your lists
+
+-Invite friends to collaborate
 
 -Create and divide an estimated cost
 
