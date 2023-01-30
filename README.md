@@ -17,3 +17,8 @@ At least once in every roommate's life they'll notice that they have a lot of th
 
 -Work on your lists throughout the week
 
+
+
+### Other Stuff
+IP address: 18.117.43.129
+shell in: ssh -i ~/[location]/[location]/[location] ubuntu@[IP]
