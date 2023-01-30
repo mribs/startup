@@ -21,4 +21,5 @@ At least once in every roommate's life they'll notice that they have a lot of th
 
 ### Other Stuff
 IP address: 18.117.43.129
+
 shell in: ssh -i ~/[location]/[location]/[location] ubuntu@[IP]
