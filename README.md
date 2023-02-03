@@ -23,3 +23,5 @@ At least once in every roommate's life they'll notice that they have a lot of th
 IP address: 18.117.43.129
 
 shell in: ssh -i ~/[location]/[location]/[location] ubuntu@[IP]
+
+Pressing the escape key works wonders when  you accidentally get somewhere you don't want to be *thumbs up*
