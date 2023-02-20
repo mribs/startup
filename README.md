@@ -20,12 +20,11 @@ At least once in every roommate's life they'll notice that they have a lot of th
 
 
 ### Other Stuff
-IP address: 18.117.43.129
-
-shell in: ssh -i ~/[location]/[location]/[location] ubuntu@[IP]
 
 Pressing the escape key works wonders when  you accidentally get somewhere you don't want to be *thumbs up*
 
 Don't forget to make your .sh files executable, it really messed up the first simon thingy.
 
-closing the things in HTML is important, otherwise entire paragraphs are links (whoops).
+Closing the things in HTML is important, otherwise entire paragraphs are links (whoops).
+
+In the event that you lose your .pem file you do in fact have to start a new instance. 
