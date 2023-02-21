@@ -28,3 +28,5 @@ Don't forget to make your .sh files executable, it really messed up the first si
 Closing the things in HTML is important, otherwise entire paragraphs are links (whoops).
 
 In the event that you lose your .pem file you do in fact have to start a new instance. 
+
+Important for centering things: justify-content: space-around;
