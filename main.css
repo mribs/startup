@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+
 body {
   display: flex;
   flex-direction: column;
@@ -7,19 +12,28 @@ body {
 }
 header {
     flex: 0 80px;
-    color: rgb(26, 19, 19);
+    color: #58b28c;
     align-items: cener;
   
+}
+h1 {
+    font-family: 'Raleway';
+}
+h2 {
+    font-family: 'Dancing Script';
 }
 
 
 main {
-  flex: 1 calc(100vh - 110px);
+  flex: 1 calc(90vh - 110px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  border-radius: 10px;
   background: white;
+  box-shadow: 10px 10px rgb(170, 125, 125);
+  font-family: 'Mynerve';
 }
 
 footer {
