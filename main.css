@@ -48,7 +48,13 @@ main {
 }
 
 footer {
+  width: 100%;
+  text-align: left;
+  margin-top: 5%;
+  color: rgb(246, 181, 192);
   flex: 0 30px;
+  
 }
+
 
 
