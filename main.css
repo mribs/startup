@@ -13,7 +13,8 @@ body {
 header {
     flex: 0 80px;
     color: #58b28c;
-    align-items: cener;
+    align-items: center;
+    
   
 }
 h1 {
@@ -21,6 +22,8 @@ h1 {
 }
 h2 {
     font-family: 'Dancing Script';
+    vertical-align: top;
+    
 }
 
 
@@ -34,6 +37,14 @@ main {
   background: white;
   box-shadow: 10px 10px rgb(170, 125, 125);
   font-family: 'Mynerve';
+}
+
+#box {
+    width: auto;
+
+    border: 1px solid white;
+    border-bottom-color: #58b28c;
+
 }
 
 footer {
