@@ -30,3 +30,7 @@ Closing the things in HTML is important, otherwise entire paragraphs are links (
 In the event that you lose your .pem file you do in fact have to start a new instance. 
 
 Important for centering things: justify-content: space-around;
+
+In order to get the styling I want, I end up using a mix of regular CSS and Bootstrap.
+
+Also there are several ways to do CSS, the two main being internal (in the HTML) and external (a .css file)
