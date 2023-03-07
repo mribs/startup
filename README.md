@@ -50,6 +50,6 @@ Dns record to another record use CNAME (alias) (‘A’ record for IP address)
 
 Reduce takes an array and reduces it to a single value
 
-<li> list item (something in the list)
+\<li\> list item (something in the list)
   
-<ul> unordered list
+\<ul\> unordered list
