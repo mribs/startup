@@ -34,3 +34,22 @@ Important for centering things: justify-content: space-around;
 In order to get the styling I want, I end up using a mix of regular CSS and Bootstrap.
 
 Also there are several ways to do CSS, the two main being internal (in the HTML) and external (a .css file)
+
+As a whole, JS is pretty easy to incorporate. That being said, DON'T FORGET TO LINK THE JS FILE TO IT'S RESPECTIVE HTML FILE. That caused me a lot of grief with simon.
+
+
+
+
+
+### Notes from review
+Dns record to another record use CNAME (alias) (‘A’ record for IP address)
+
+—know some json syntax— i.e. double quotes, null (!never undefined!)
+
+“Pals before marriage” (ie. Content => padding, border =>margins
+
+Reduce takes an array and reduces it to a single value
+
+<li> list item (something in the list)
+  
+<ul> unordered list
