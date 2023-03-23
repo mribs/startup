@@ -37,6 +37,10 @@ Also there are several ways to do CSS, the two main being internal (in the HTML)
 
 As a whole, JS is pretty easy to incorporate. That being said, DON'T FORGET TO LINK THE JS FILE TO IT'S RESPECTIVE HTML FILE. That caused me a lot of grief with simon.
 
+node.js has many very useful additions (npm install)
+
+
+
 
 
 
