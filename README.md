@@ -39,6 +39,8 @@ As a whole, JS is pretty easy to incorporate. That being said, DON'T FORGET TO L
 
 node.js has many very useful additions (npm install)
 
+Mongodb is being used to persistently store data. Along with that: hide your credentials in envoronment variables
+
 
 
 
