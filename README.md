@@ -41,6 +41,8 @@ node.js has many very useful additions (npm install)
 
 Mongodb is being used to persistently store data. Along with that: hide your credentials in envoronment variables
 
+Typically login (username & passwords) are done with cookies
+
 
 
 
