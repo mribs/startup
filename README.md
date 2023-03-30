@@ -43,6 +43,10 @@ Mongodb is being used to persistently store data. Along with that: hide your cre
 
 Typically login (username & passwords) are done with cookies
 
+npm is being a pain in my neck
+
+WebSocket can only technically go between two people, if doing a group then everybody connects to websocket and then it will like send it out individually (at least that was what I understood)
+
 
 
 
