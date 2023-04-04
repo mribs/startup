@@ -1,60 +1,87 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8" />
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
     <!-- Tell browsers not to scale the viewport automatically -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!--<title id="Name">YourName</title> -->
-        <!-- main.css and bootstrap -->
-        <link rel="stylesheet" href="main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<title id="Name">YourName</title> -->
+    <!-- main.css and bootstrap -->
+    <link rel="stylesheet" href="main.css" />
 
-        <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-        crossorigin="anonymous"
-        />
-    </head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
 
-    <body style="background-color: pink;">
-        <header class="b-3" style="z-index: 5">
-            
-            <h1 id = "Name">YourName's</h1> 
-            <h2>grocery list</h2>
-        </header>
-        
+    <script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const inputGroups = [document.getElementById("newItem")];
+    const inputBoxes = document.querySelectorAll("#box");
 
-        <main class="container mt-4" style=" margin-top: -36px;">
-    
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <div id="checkBox" class="input-group-text">
-                    <input type="checkbox" aria-label="Checkbox for following text input">
-                  </div>
-                </div>
-    
-                <input id="box" type="text" placeholder="start making your list!">
-                
-              </div>
-                
-            <p>
-            using JS will make it so can create more lines (i hope)
-            Also, when checked, text will strike-through
-            </p>
-    
-        </main>
+    inputBoxes.forEach((inputBox) => {
+      inputBox.addEventListener("keydown", (event) => {
+        if (event.keyCode === 13) {
+          const lastInputGroup = inputGroups[inputGroups.length - 1];
+          const newInputGroup = lastInputGroup.cloneNode(true);
+          const newInputBox = newInputGroup.querySelector("#box");
+          newInputBox.value = "";
+          lastInputGroup.after(newInputGroup);
+          inputGroups.push(newInputGroup);
+          newInputBox.focus();
 
-        <footer>
-            <div class="container-fluid">
-              <span class="text-reset">Maggie Ribble</span>
-              <a
-                class="text-reset"
-                href="https://github.com/mribs/startup"
-                >Source</a
-              >
-            </div>
-          </footer>
-        
-    </body>
+          // Assign the new last input group to the lastIndex variable
+          const lastIndex = inputGroups[inputGroups.length - 1];
+          lastIndex.addEventListener("keydown", (event) => {
+            if (event.keyCode === 13) {
+              const lastInputGroup = inputGroups[inputGroups.length - 1];
+              const newInputGroup = lastInputGroup.cloneNode(true);
+              const newInputBox = newInputGroup.querySelector("#box");
+              newInputBox.value = "";
+              lastInputGroup.after(newInputGroup);
+              inputGroups.push(newInputGroup);
+              newInputBox.focus();
+              lastIndex.focus();
+
+            }
+          });
+        }
+      });
+    });
+  });
+</script>
     
+    
+    
+  </head>
+
+  <body style="background-color: pink;">
+    <header class="b-3" style="z-index: 5">
+      <h1 id="Name">YourName's</h1>
+      <h2>grocery list</h2>
+    </header>
+
+    <main class="container mt-4" style="margin-top: -36px;">
+      <div class="input-group mb-3" id="newItem">
+
+        <div class="input-group-prepend">
+          <div id="checkBox" class="input-group-text">
+            <input type="checkbox" aria-label="Checkbox for following text input" />
+          </div>
+        </div>
+
+        <input id="box" type="text" placeholder="start making your list!" />
+
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <span class="text-reset">Maggie Ribble</span>
+        <a class="text-reset" href="https://github.com/mribs/startup">Source</a>
+      </div>
+    </footer>
+  </body>
 </html>
