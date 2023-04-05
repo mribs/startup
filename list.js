@@ -1,5 +1,8 @@
-     
-
+function getUserName() {
+    return localStorage.getItem('userName') ?? 'Your';
+};
+const userNameEl = document.querySelector('.userName');
+userNameEl.textContent = this.getUserName() + "\'s";
       
   window.addEventListener("DOMContentLoaded", () => {
   
