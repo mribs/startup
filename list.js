@@ -25,3 +25,22 @@
       inputBox.addEventListener("keydown", addLine);
     });
    });
+
+//FIXME: something here isn't exactly working, I think it is only saving one item
+   function loadList() {
+    let items = [];
+    const itemText = localStorage.getItem('items');
+    if (itemText) {
+        items = JSON.parse(itemText);
+    }
+
+    const listBodyEl = document.querySelector('#box');
+
+    if (items.length) {
+        for (const [i, item] of items.entries()) {
+            const itemTdEl = document.createElement('newItem');
+        }
+    }
+   }
+
+   loadList();

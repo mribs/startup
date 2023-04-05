@@ -7,6 +7,7 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
         />
+        <script src="login.js"></script>
         <link rel="stylesheet" href="index.css" />
         
 
@@ -26,8 +27,9 @@
           <input type="text" id="password" placeholder="password"/>
         </div>
         <div>
-          <button type="newUser" class="btn btn-primary btn-sm">New User</button> 
-          <button type="login" class="btn btn-primary btn-sm">Login</button>
+          <!---for now newUser and login do the same thing--->
+          <button type="newUser" onclick="login()" class="btn btn-primary btn-sm">New User</button> 
+          <button type="login" onclick="login()" class="btn btn-primary btn-sm">Login</button>
         </div>
       </form>
     </div>
