@@ -47,7 +47,7 @@ npm is being a pain in my neck
 
 WebSocket can only technically go between two people, if doing a group then everybody connects to websocket and then it will like send it out individually (at least that was what I understood)
 
-
+React is really powerful. A lot of use can be found *navigation aspects anybody? But like, lowkey you will have to adjust a lot of like foundational work.
 
 
 
