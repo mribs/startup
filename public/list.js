@@ -2,7 +2,7 @@ function getUserName() {
     return localStorage.getItem('userName') ?? 'Your';
 };
 const userNameEl = document.querySelector('.userName');
-userNameEl.textContent = this.getUserName() + "\'s";
+userNameEl.textContent = this.getUserName();
       
   window.addEventListener("DOMContentLoaded", () => {
   
