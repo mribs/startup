@@ -49,6 +49,12 @@ WebSocket can only technically go between two people, if doing a group then ever
 
 React is really powerful. A lot of use can be found *navigation aspects anybody? But like, lowkey you will have to adjust a lot of like foundational work.
 
+When in doubt, staring at it doesn't do much, but other people can be very helpful.
+
+Websockets allows peer to peer communication
+
+json is basically how JavaScript stores Objects, and mondoDB will store jsons documents in collections.
+
 
 
 
