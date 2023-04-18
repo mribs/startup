@@ -32,30 +32,34 @@ async function createUser(email, password) {
     email: email,
     password: passwordHash,
     token: uuid.v4(),
+    list: [],
   };
   await userCollection.insertOne(user);
 
   return user;
 }
 
-// function addScore(score) {
-//   scoreCollection.insertOne(score);
+// async function createList(email, [list])
+
+// function addList(items) {
+//   const query = {list:};
+//   const updateList = {
+//     $set: {
+//       list: [{items}],
+//     },
+//   };
+//   const result = await userCollection.updateOne{query,updateList};
+  
 // }
 
-// function getHighScores() {
-//   const query = {};
-//   const options = {
-//     sort: { score: -1 },
-//     limit: 10,
-//   };
-//   const cursor = scoreCollection.find(query, options);
-//   return cursor.toArray();
+// function getList() {
+  
 // }
 
 module.exports = {
   getUser,
   getUserByToken,
   createUser,
-  //addScore,
-  //getHighScores,
+  addList,
+  getList,
 };

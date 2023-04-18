@@ -84,18 +84,18 @@ secureApiRouter.use(async (req, res, next) => {
   }
 });
 
-// // GetScores
-// secureApiRouter.get('/scores', async (req, res) => {
-//   const scores = await DB.getHighScores();
-//   res.send(scores);
-// });
+// GetScores
+secureApiRouter.get('/list', async (req, res) => {
+  const list = await DB.getList();
+  res.send(list);
+});
 
-// // SubmitScore
-// secureApiRouter.post('/score', async (req, res) => {
-//   await DB.addScore(req.body);
-//   const scores = await DB.getHighScores();
-//   res.send(scores);
-// });
+// SubmitScore
+secureApiRouter.post('/list', async (req, res) => {
+  await DB.addList(req.body);
+  const list = await DB.getList();
+  res.send(list);
+});
 
 // Default error handler
 app.use(function (err, req, res, next) {
