@@ -60,6 +60,6 @@ module.exports = {
   getUser,
   getUserByToken,
   createUser,
-  addList,
-  getList,
+  //addList,
+  //getList,
 };
