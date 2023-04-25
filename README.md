@@ -71,3 +71,40 @@ Reduce takes an array and reduces it to a single value
 \<li\> list item (something in the list)
   
 \<ul\> unordered list
+
+
+### Final Review Notes
+Cookie: Allows a server to store data on the client (the client stores it)
+Standard HTTP headers include: Host, content-type, cookie (NOT language) **this is not the url
+Fetch can be used in front-end and back-end code
+JSX purposes include:  inject HTML into JavaScript, componentize your HTML, and allow for composability of HTML (NOT combine CSS, HTML, and JS… i.e. does not touch CSS at all)
+
+Fetch request:
+const r = await fetch(‘/fav/ringo’, {
+method: ‘DELETE’
+});  
+Express middleware that matches: (will cause unending loading, but it will match)
+app.delete(/fav\/(.*)/, () => }{)
+
+
+Linux daemon: Starts when computer is rebooted, executes independent of a user, PM2 is an example of a daemon
+Hashing stored passwords is important because it improves security by making the password unreadable
+NavLink and Route path are pretty much exactly what you think.
+WebSocket is peer to peer instead of client to server 
+Port 80 is reserved for HTTP, HTTPS is 443
+
+MongoDB query
+{ $or: [{name: /J.*/}, {score: {$lt:3}}]}
+If either that or that matches
+Something about a J (case sensitive)
+Less than 3 (lte means less than or equal)
+{name: walker, score: -55} matches
+
+HTTP status code in  300 range are for redirecting
+400 client error
+500 server error
+200 success
+100 informational
+
+NPM install ws: adds a dependency to your package.json file, adds the websocket source code to the node_modules directory, locks the version of the websocket package for your application. (it does NOT add template code for websockets to your JavaScript (obviously, that would mean it’s writing code for you))
+
